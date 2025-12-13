@@ -188,6 +188,7 @@ guide-entry-space-ninja = Space Ninja
 guide-entry-thieves = Thieves
 guide-entry-vampires = Vampires
 guide-entry-malfunctioningai = Malfunctioning AI
+guide-entry-xenoborgs = Xenoborgs
 
 guide-entry-rules = Server Rules
 guide-entry-rules-core-only = Core Only Ruleset

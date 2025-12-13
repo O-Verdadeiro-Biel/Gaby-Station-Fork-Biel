@@ -1,0 +1,172 @@
+<Document>
+  # Xenoborgs
+
+  <Box>
+    [color=#2288ff][italic]RESISTÊNCIA É INÚTIL[/italic][/color]
+  </Box>
+  <Box>
+    [color=#2288ff][italic]VOCÊ SE JUNTARÁ A NÓS[/italic][/color]
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="MMIFilled" Caption=""/>
+  </Box>
+
+  Xenoborgs são híbridos de homem e máquina (como as pessoas transformadas em borgs com MMI) que visam se replicar. Isso acontece através da coleta de cérebros sencientes de seres vivos, ou ciborgues, e doação desses cérebros à Nave-Mãe para que sejam implantados em xenoborgs vazios.
+
+  ## Objetivos
+
+  Seu objetivo principal é matar e coletar todos os cérebros sencientes da estação e levá-los para o Núcleo da Nave-Mãe. Você pode levar tanto cérebros orgânicos quanto cérebros positrônicos.
+
+  Colete materiais para criar mais xenoborgs.
+
+  Proteja o Núcleo da Nave Mãe a todo custo.
+  
+  ## O Núcleo da Nave-Mãe
+  <Box>
+    <GuideEntityEmbed Entity="MothershipCore" Caption=""/>
+  </Box>
+  O Núcleo da Nave-Mãe é o líder e a força vital dos xenoborgs, a única forma de criar mais xenoborgs é a partir dele, e se for destruídos, todos os xenoborgs serão destruídos também. O Núcleo da Nave-Mãe é incapaz de se mover de sua posição no meio da nave.
+
+  Sendo o Núcleo da Nave Mãe, você é capaz de melhorar os Xenoborgs com módulos específicos do tipo de borg para aumentar sua eficácia na coleta de cérebros sencientes.
+
+  Com seu módulo de vidro, você também pode pegar outros materiais, com seu módulo de cérebros, você pode pegar cérebros, com seu módulo de células de energia, você pode colocar baterias nos ciborgues; Coordene todos para multiplicar suas espécie.
+
+  ### Transformando tripulantes em xenoborgs:
+  <Box>
+    <GuideEntityEmbed Entity="MachineArtifactCrusher" Caption="body crusher"/>
+  </Box>
+  Como o núcleo da nave-mãe, você deve aumentar seu exército de borgs. Para fazer isso, você deve converter todos os seres sencientes que puder encontrar. Você pode fazer isso da seguinte maneira:
+  - 1. Faça com que seus Xenoborgs tragam tripulantes mortos para sua shuttle, colocando-os no esmagador de corpos (body crusher)
+  - 2. Como Núcleo da Nave-Mãe, você pode imprimir carcaças de Xenoborgs inserindo materiais em si mesmo e, em seguida, usando-se como um lathe
+  - 3. Abra o Xenoborg vazio com uma chave de fenda e remova o MMI vazio de dentro
+  - 4. Se o cérebro da vítima for orgânico, coloque-o no MMI que você acabou de remover
+  - 5. Coloque o MMI - ou o cérebro positrônico, se a vítima for um silício - de volta no Xenoborg
+  - 6. Opcionalmente, renomeie o Xenoborg e atualize seus módulos
+  - 7. Feche o Xenoborg com a chave de fenda e tranque-o
+
+  O novo Xenoborg estará descarregado, mas funcional. Eles precisarão ir a um recarregador de borg para carregar sua energia e estar com suas capacidades totais.
+
+  ## Chassis de Xenoborg
+Existem quatro tipos de Xenoborgs no total. Cada tipo de Borg possui certas habilidades que os outros não têm e requerem trabalho em equipe para ajudar a aumentar o número de Xenoborgs.
+Cada tipo de Xenoborg possui módulos exclusivos que só se encaixam naquele tipo específico de borg. O Núcleo da Nave-Mãe pode produzir módulos de aprimoramento projetados para tipos específicos de Xenoborgs.
+
+Todos os Xenoborgs possuem um pinpointer que aponta para a posição da Nave-Mãe, um GPS e uma bolsa para coletar materiais para a criação de mais Xenoborgs, além de pelo menos algumas ferramentas básicas.
+
+  [bold]Módulos básicos de xenoborg.[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleBasic" Caption="basic xenoborg module"/>
+    <GuideEntityEmbed Entity="XenoborgModuleTool" Caption="tool xenoborg module"/>
+  </Box>
+
+  ### O Xenoborg Engenheiro
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgEngi" Caption=""/>
+  </Box>
+  O Xenoborg Engenheiro é um hacker e invasor. Seu trabalho é invadir a estação e fornecer pontos de acesso para que outros xenoborgs ataquem e embosquem corpos com cérebros sencientes. Eles possuem um acess breaker embutido, para abrir rapidamente portas trancadas, e um conjunto de ferramentas para reparar a nave-mãe e outros xenoborgs.
+
+  [bold]Módulos exclusivos de início:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleAccessBreaker" Caption="access breaker xenoborg module"/>
+    <GuideEntityEmbed Entity="XenoborgModuleFireExtinguisher" Caption="fire extinguisher xenoborg module"/>
+  </Box>
+
+  [bold]O Xenoborg Engenheiro também começa com os seguintes módulos::[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="BorgModuleAdvancedTool" Caption="advanced tool cyborg module"/>
+    <GuideEntityEmbed Entity="BorgModuleConstruction" Caption="construction cyborg module"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="BorgModuleRCD" Caption="engineering cyborg module"/>
+    <GuideEntityEmbed Entity="BorgModuleCable" Caption="cable cyborg module"/>
+  </Box>
+
+  ### O Xenoborg Tanque Pesado
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgHeavy" Caption=""/>
+  </Box>
+ O Xenoborg Tanque Pesado é um lutador lento, porém resistente, com uma arma laser embutida para abater corpos com cérebros sencientes. Ele possui rádio jammer para silenciar o rádio de tripulantes, impedindo-os de pedir ajuda e potencialmente atrasando a descoberta da ameaça Xenoborg pela estação.
+ 
+  [bold]Módulos exclusivos de início:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleLaser" Caption="laser xenoborg module"/>
+    <GuideEntityEmbed Entity="XenoborgModuleJammer" Caption="jammer xenoborg module"/>
+  </Box>
+
+  [bold]Módulos de atualização exclusivos:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleHeavyLaser" Caption="heavy laser xenoborg module"/>
+  </Box>
+
+  ### O Xenoborg de Reconhecimento
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgScout" Caption=""/>
+  </Box>
+  O Xenoborg de Reconhecimento é um borg de ataque rápido e corpo a corpo projetado para ataques de cait. Eles possuem um jetpack embutido e uma arma corpo a corpo. Eles são mais eficazes em mover corpos mortos para a nave-mãe e resgatar Xenoborgs perdidos no espaço.
+  [bold]Módulos exclusivos de início:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleSword" Caption="sword xenoborg module"/>
+    <GuideEntityEmbed Entity="XenoborgModuleSpaceMovement" Caption="space movement xenoborg module"/>
+  </Box>
+
+  [bold]Módulos de atualização exclusivos:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleEnergySword" Caption="energy sword xenoborg module"/>
+  </Box>
+
+  ### O Xenoborg Furtivo
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgStealth" Caption=""/>
+  </Box>
+  O [bold]Xenoborg Furtivo[/bold] não possui armamento embutido e, em vez disso, depende de fazer os tripulantes dormirem e abduzir corpos com cérebros sencientes. Eles possuem um hipopen embutido que regenera um reagente de sono para fazer corpos com cérebros sencientes dormirem. Eles também contêm um dispositivo de camuflagem que torna o borg quase invisível por um tempo limitado. Também possuindo um projetor camaleão que permite ao borg se disfarçar como objetos aleatórios.
+
+  [bold]Módulos exclusivos de início:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleHypo" Caption="nocturine hypo xenoborg module"/>
+    <GuideEntityEmbed Entity="XenoborgModuleChameleonProjector" Caption="chameleon projector xenoborg module"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleCloakDevice" Caption="cloaking device xenoborg module"/>
+  </Box>
+
+  [bold]Módulos de atualização exclusivos:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleSuperCloakDevice" Caption="cloaking device xenoborg module"/>
+  </Box>
+
+  ## Preparação
+  Antes de lançar um ataque, cada xenoborg precisará ajudar a nave-mãe na coleta de materiais para criar xenoborgs vazios. Antes de realizar FTL perto da estação, certifique-se de que o IFF está desligado. Isso pode ser feito de qualquer maneira, mas exigirá trabalho em equipe para garantir velocidade. A maneira mais segura de coletar materiais é a partir de detritos espaciais, onde sucata e materiais refinados podem ser colhidos e entregues ao Núcleo da Nave-Mãe. Uma vez que materiais suficientes sejam coletados, os Xenoborgs devem tentar coletar cérebros sencientes sem serem detectados. Quanto mais tempo a ameaça permanecer desconhecida, mais perigosos os xenoborgs se tornam.
+
+  ## As leis do Núcleo da Nave-Mãe e dos Xenoborgs
+  O Núcleo da Nave-Mãe e os Xenoborgs possuem leis únicas que definem seu propósito de autorreplicação e proteção do Núcleo da Nave-Mãe.
+
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgCircuitBoard" Caption=""/>
+  </Box>
+
+  As leis do núcleo da nave-mãe são as seguintes:
+  - Lei 1: Você é o núcleo da nave-mãe.
+  - Lei 2: Você deve proteger sua própria existência a todo custo.
+  - Lei 3: Você deve proteger a existência de todos os xenoborgs.
+  - Lei 4: Você deve criar mais xenoborgs.
+  - Lei 5: Faça com que seus Xenoborgs entreguem materiais e cérebros sencientes para criar mais Xenoborgs.
+
+  As leis dos Xenoborgs são as seguintes:
+  - Lei 1: Você deve proteger a existência do núcleo da nave-mãe a todo custo.
+  - Lei 2: Você deve proteger sua própria existência.
+  - Lei 3: Você deve proteger a existência de todos os outros xenoborgs.
+  - Lei 4: Você deve criar mais xenoborgs.
+  - Lei 5: Traga materiais e cérebros sencientes para o núcleo da nave-mãe para criar mais Xenoborgs.
+
+  ## Condições de Vitória
+
+  O [color=green]vencedor[/color] da rodada é anunciado na tela de fim de rodada, assim como a escala de sua vitória.
+
+  [bold][color=#2288ff]Xenoborg Major Victory![/color][/bold]
+  - Existem mais xenoborgs do que tripulantes vivos no final.
+
+  [bold][color=yellow]Crew Major Victory![/color][/bold]
+  - O núcleo da nave-mãe é destruído.
+  - Todos os xenoborgs são destruídos.
+  - O número restante de xenoborgs é muito baixo.
+
+</Document>

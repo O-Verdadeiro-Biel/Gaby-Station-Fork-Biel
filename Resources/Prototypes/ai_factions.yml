@@ -53,6 +53,7 @@
     - Wizard
     - PirateFaction # goob - pirates
     - Lavafauna # Goob - Lavaland
+    - Xenoborg
 
 - type: npcFaction
   id: NanoTrasen

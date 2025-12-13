@@ -1236,6 +1236,49 @@
     - type: StaticPrice
       price: 2000
 
+# mothership module
+- type: entity
+  parent: [ BaseXenoborgModuleGeneric, BaseProviderBorgModule, BaseXenoborgContraband ]
+  id: MothershipModule
+  name: mothership module
+  description: A module that helps the mothership borg brains and install other modules.
+  components:
+  - type: Tag
+    tags:
+    - MothershipModule
+  - type: Sprite
+    layers:
+    - state: xenoborg_generic
+    - state: icon-xenoborg-basic
+  - type: ItemBorgModule
+    moduleId: MothershipHelper
+    items:
+     - DoorRemoteXenoborg
+    # Frontier: droppable borg items
+  - type: DroppableBorgModule
+    moduleId: MothershipHelper
+    items:
+    - id: SheetGlass
+      whitelist:
+        tags:
+        - Sheet
+        - Ingot
+    - id: OrganHumanBrain
+      whitelist:
+        components:
+        - Brain
+        - BorgBrain
+    - id: XenoborgModuleTool
+      whitelist:
+        components:
+        - BorgModule
+    - id: PowerCellMedium
+      whitelist:
+        components:
+        - PowerCell
+  - type: BorgModuleIcon
+    icon: { sprite: Interface/Actions/actions_borg.rsi, state: xenoborg-module-module }
+
 # Shitmed Modules
 
 - type: entity
@@ -1537,3 +1580,21 @@
     - CloakingDevice
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: xenoborg-eye-module }
+
+
+- type: entity
+  parent: [ BaseXenoborgModuleStealth, BaseProviderBorgModule, BaseXenoborgContraband ]
+  id: XenoborgModuleSuperCloakDevice
+  name: cloaking device xenoborg module
+  description: Module with a device that allows xenoborgs to become truly invisible for less time.
+  components:
+  - type: Sprite
+    layers:
+    - state: xenoborg_stealth
+    - state: icon-xenoborg-cloak2
+  - type: ItemBorgModule
+    moduleId: XenoborgSuperCloakDevice
+    items:
+    - SuperCloakingDevice
+  - type: BorgModuleIcon
+    icon: { sprite: Interface/Actions/actions_borg.rsi, state: xenoborg-eye2-module }

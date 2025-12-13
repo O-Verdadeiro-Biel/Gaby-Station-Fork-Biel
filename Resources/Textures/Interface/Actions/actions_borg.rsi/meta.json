@@ -125,10 +125,19 @@
             "name":"xenoborg-basic-module"
         },
         {
+            "name":"xenoborg-camera-computer"
+        },
+        {
+            "name":"xenoborg-control-computer"
+        },
+        {
             "name":"xenoborg-extinguisher-module"
         },
         {
             "name":"xenoborg-eye-module"
+        },
+        {
+            "name":"xenoborg-eye2-module"
         },
         {
             "name":"xenoborg-hypo-module"
@@ -138,6 +147,9 @@
         },
         {
             "name":"xenoborg-laser-module"
+        },
+        {
+            "name":"xenoborg-module-module"
         },
         {
             "name":"xenoborg-laser2-module"
