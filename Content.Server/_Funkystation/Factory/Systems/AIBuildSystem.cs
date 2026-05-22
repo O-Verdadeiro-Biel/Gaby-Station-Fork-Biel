@@ -140,31 +140,21 @@ public sealed partial class AIBuildSystem : EntitySystem
             return;
         }
 
-        try
+        // Spawn the entity
+        var spawned = Spawn(args.Prototype, location);
+
+        // If this is a robotics factory grid, remember who built it so we can assign borgs later.
+        var isFactory = false;
+        if (HasComp<RoboticsFactoryGridComponent>(spawned))
         {
-            // Spawn the entity
-            var spawned = Spawn(args.Prototype, location);
-
-            // If this is a robotics factory grid, remember who built it so we can assign borgs later.
-            var isFactory = false;
-            if (HasComp<RoboticsFactoryGridComponent>(spawned))
-            {
-                isFactory = true;
-                var owner = EnsureComp<MalfFactoryOwnerComponent>(spawned);
-                owner.Controller = uid; // uid is the AI entity that received the DoAfter completion
-            }
-
-            // a próxima função sempre da erro linha 189 do MapChunk.cs. o erro acontece pq ele tá tentando por o `spawned` no centro do tile sendo que ele já está. ainda não entendi pq ele já está.
-            _xform.AnchorEntity(spawned);
-
-            // On success, remove the Robotics Factory action from the Malf AI that built it.
-            if (isFactory)
-                RemoveRoboticsFactoryAction(uid);
+            isFactory = true;
+            var owner = EnsureComp<MalfFactoryOwnerComponent>(spawned);
+            owner.Controller = uid; // uid is the AI entity that received the DoAfter completion
         }
-        catch (Exception ex)
-        {
-            Sawmill.Error($"AIBuild: Failed to spawn '{args.Prototype}' at {location}: {ex}");
-        }
+
+        // On success, remove the Robotics Factory action from the Malf AI that built it.
+        if (isFactory)
+            RemoveRoboticsFactoryAction(uid);
     }
 
     private void RemoveRoboticsFactoryAction(EntityUid performer)
